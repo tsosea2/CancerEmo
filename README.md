@@ -23,6 +23,12 @@ Emotions are an important element of human nature, often affecting the overall w
 
 ## Baselines
 
-We provide the code to train and do hyperparameter tuning for our main BERT baseline:
+We provide the code to train and do hyperparameter tuning for our main BERT baseline. First, configure the environment:
+
+```
+$ conda create --name CancerEmo python=3.8
+$ conda activate CancerEmo
+$ pip install -r requirements.txt
+```
 
 ## Pre-training using MLM
