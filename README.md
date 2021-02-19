@@ -49,4 +49,4 @@ TOKENIZERS_PARALLELISM=false python main.py \
 
 ## Pre-training using MLM
 
-We also provide a short notebook at `mlm/csn_mlm.ipynb` to train BERT using mlm on additional data. You only need to create a file with a sentence per line, and fill its path in the notebook. Unfortunately, we cannot provide the CSN forum, but one has permissions to crawl it.
+We also provide a short notebook at `mlm/csn_mlm.ipynb` to train BERT using mlm on additional data. You only need to create a file with a sentence per line, and fill its path in the notebook. After training, you can use the checkpoint in the main code. Unfortunately, we cannot provide the CSN forum, but one has permissions to crawl it.
