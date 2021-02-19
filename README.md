@@ -45,7 +45,7 @@ TOKENIZERS_PARALLELISM=false python main.py \
     --api_key_wandb <your_wandb_key>
 ```
 
-<emotion> can take one of the following values [`Sadness`, `Joy`, `Fear`, `Anger`, `Surprise`, `Disgust`, `Trust`, `Anticipation`]
+`emotion` can take one of the following values [`Sadness`, `Joy`, `Fear`, `Anger`, `Surprise`, `Disgust`, `Trust`, `Anticipation`]
 
 ## Pre-training using MLM
 
