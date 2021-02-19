@@ -27,6 +27,7 @@ We provide the code to train and do hyperparameter tuning for our main BERT base
 
 ```
 $ conda create --name CancerEmo python=3.8
+$ conda activate CancerEmo
 $ pip install -r requirements.txt
 ```
 
