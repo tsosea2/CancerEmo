@@ -31,7 +31,7 @@ $ conda activate CancerEmo
 $ pip install -r requirements.txt
 ```
 
-Then, the code can be ran using:
+Then, the code can be run using:
 
 ```
 TOKENIZERS_PARALLELISM=false python main.py \
@@ -44,5 +44,7 @@ TOKENIZERS_PARALLELISM=false python main.py \
     --tuning_trials 20 \
     --api_key_wandb <your_wandb_key>
 ```
+
+<emotion> can take one of the following values ['Sadness', 'Joy', 'Fear', 'Anger', 'Surprise', 'Disgust', 'Trust', 'Anticipation']
 
 ## Pre-training using MLM
