@@ -34,7 +34,15 @@ $ pip install -r requirements.txt
 Then, the code can be ran using:
 
 ```
-TOKENIZERS_PARALLELISM=false python main.py --data_dir <data_path> --emotion <emotion> --tuning_savedir <savedir>  --experiment_name <model_savedir> --repetitions 10 --tuning 1 --tuning_trials 20 --api_key_wandb <your_wandb_key>
+TOKENIZERS_PARALLELISM=false python main.py \
+    --data_dir <data_path> \
+    --emotion <emotion> \
+    --tuning_savedir <savedir> \
+    --experiment_name <model_savedir> \
+    --repetitions 10 \
+    --tuning 1 \
+    --tuning_trials 20 \
+    --api_key_wandb <your_wandb_key>
 ```
 
 ## Pre-training using MLM
