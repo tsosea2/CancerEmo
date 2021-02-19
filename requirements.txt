@@ -1,0 +1,4 @@
+pip install ray[tune]
+pip install transformers
+pip install torch
+pip install sklearn
