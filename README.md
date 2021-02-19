@@ -45,6 +45,8 @@ TOKENIZERS_PARALLELISM=false python main.py \
     --api_key_wandb <your_wandb_key>
 ```
 
-<emotion> can take one of the following values ['Sadness', 'Joy', 'Fear', 'Anger', 'Surprise', 'Disgust', 'Trust', 'Anticipation']
+<emotion> can take one of the following values [`Sadness`, `Joy`, `Fear`, `Anger`, `Surprise`, `Disgust`, `Trust`, `Anticipation`]
 
 ## Pre-training using MLM
+
+We also provide a short notebook in `mlm/csn_mlm.ipynb` to train BERT using mlm on additional data. You only need to create a file with a sentence per line, and fill its path in the notebook. Unfortunately, we cannot provide the CSN forum, but one has permissions to crawl it.
