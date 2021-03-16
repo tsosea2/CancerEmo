@@ -1,4 +1,5 @@
-pip install ray[tune]
-pip install transformers
-pip install torch
-pip install sklearn
+ray[tune]
+transformers
+torch
+sklearn
+wandb
