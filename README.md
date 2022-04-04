@@ -1,6 +1,6 @@
 # CancerEmo
 
-This is the code for our EMNLP 2020 paper [Canceremo: A Dataset for Fine-Grained Emotion Detection](https://www.aclweb.org/anthology/2020.emnlp-main.715/). Please request the dataset at tsosea2@uic.edu. If you found the dataset helpful, consider citing our paper:
+This is the code for our EMNLP 2020 paper [Canceremo: A Dataset for Fine-Grained Emotion Detection](https://www.aclweb.org/anthology/2020.emnlp-main.715/). Please request the dataset at tsosea2@uic.edu. If you use this dataset, please cite our paper:
 
 ```bibtex
 @inproceedings{sosea-caragea-2020-canceremo,
